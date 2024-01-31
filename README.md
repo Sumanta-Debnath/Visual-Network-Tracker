@@ -1,1 +1,3 @@
 # Visual-Network-Tracker
+
+For this project, I captured and analyzed network traffic using Wireshark. After collecting a suitable sample of network packets, I used Python scripts to parse through the packet capture and extract relevant information such as source IP addresses, destination IP addresses, source ports, destination ports, protocols, and packet sizes. The extracted data was then processed and integrated with the Google Maps API to visualize the geographical locations of the source and destination of the network traffic. By geolocating the endpoints of the communication, I was able to gain useful insights into the traffic patterns on the network. 
